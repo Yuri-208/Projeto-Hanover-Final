@@ -1,0 +1,13 @@
+
+@media (max-width: 768px) {
+    .menu-toggle { display: block; }
+    #nav-menu { position: absolute; top: 80px; left: 0; width: 100%; background: var(--primary-color); flex-direction: column; clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); transition: clip-path 0.3s ease; }
+    #nav-menu.active { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+    .nav-list { flex-direction: column; padding: 20px; }
+    .hero-content h1 { font-size: 2.5rem; }
+    .hero-desc { font-size: 1rem; }
+    .flex-sobre { flex-direction: column; }
+    .slider { height: 250px; }
+    .clientes-grid { gap: 20px; }
+    .clientes-grid img { max-width: 120px; }
+}
